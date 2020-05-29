@@ -10,9 +10,9 @@ An example on how to listen to the even can be found here https://github.com/iro
 This is a maven project if you have the souce code do mvn clean install and then you can add the plugin to your pom as a dependency,
 ```xml
 <dependency>
- 	<groupId>com.ironboundred.ReloadPlugin</groupId>
-  <artifactId>ReloadPlugin</artifactId>
-  <version>0.0.9-SNAPSHOT</version>
-  <scope>provided</scope>
+ <groupId>com.ironboundred.ReloadPlugin</groupId>
+ <artifactId>ReloadPlugin</artifactId>
+ <version>0.0.9-SNAPSHOT</version>
+ <scope>provided</scope>
 </dependency>
 ````

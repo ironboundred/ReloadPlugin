@@ -1,0 +1,19 @@
+version: ${version}
+name: ${project.name}
+description: This plugin overrides the bukkit provided /reload command and will fire an event for other plugins to listen to for plugin reloading.
+author: Ironboundred
+api-version: 1.15
+
+main: com.ironboundred.ReloadPlugin.ReloadPlugin
+
+commands:
+ reloadplugin:
+  description: fire a reload for plugins to relaod themself.
+  permission: reloadplugin.relaod
+  aliases: rlpl
+  usage: "/realod [plugin name] [true/false]"
+ 
+permissions:
+ reloadplugin.reload:
+  description: use the relaod command.
+  default: op

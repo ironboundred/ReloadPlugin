@@ -1,4 +1,6 @@
 # ReloadPlugin
+[![](https://jitpack.io/v/ironboundred/ReloadPlugin.svg)](https://jitpack.io/#ironboundred/ReloadPlugin)
+
 A replacement for spigot /reload command.
 
 This plugin allows for plugins to listen for the ReloadEvent to fire. 

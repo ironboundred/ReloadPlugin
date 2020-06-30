@@ -1,4 +1,6 @@
 # ReloadPlugin
+[![](https://jitpack.io/v/ironboundred/ReloadPlugin.svg)](https://jitpack.io/#ironboundred/ReloadPlugin)
+
 A replacement for spigot /reload command.
 
 This plugin allows for plugins to listen for the ReloadEvent to fire. 
@@ -7,12 +9,16 @@ One thats for just reloading the config and one for reloading all the plugin.
 
 An example on how to listen to the event can be found here https://github.com/ironboundred/ReloadPlugin/blob/master/src.main.java/com/ironboundred/ReloadPlugin/ReloadEventListener.java
 
-This is a maven project if you have the souce code do mvn clean install and then you can add the plugin to your pom as a dependency,
+This is a maven project that can be added in your pom.xml with the following:
 ```xml
+<repository>
+ <id>jitpack.io</id>
+ <url>https://jitpack.io</url>
+</repository>
+
 <dependency>
- <groupId>com.ironboundred.ReloadPlugin</groupId>
+ <groupId>com.github.ironboundred</groupId>
  <artifactId>ReloadPlugin</artifactId>
  <version>0.0.9-SNAPSHOT</version>
- <scope>provided</scope>
 </dependency>
 ````
